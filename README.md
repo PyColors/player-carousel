@@ -9,6 +9,8 @@ Player carousel uses a number of open source projects to work properly:
 
 * [React] - A JavaScript library for building user interfaces
 * [Redux] - Predictable state container for JavaScript apps
+* [Jest] - Delightful JavaScript Testing.
+* [Enzyme] - JavaScript Testing utilities for React
 * [MUI] - A lightweight CSS framework 
 * [Webpack] - Bundle assets scripts
 * [Eslint] - Pluggable JavaScript linter
@@ -67,6 +69,8 @@ MIT
    [git-repo-url]: <https://github.com/PyColors/choose-your-iPhone>
    [React]: <https://github.com/facebook/react>
    [Redux]: <https://github.com/reduxjs/redux>
+   [Jest]: <https://github.com/facebook/jest>
+   [Enzyme]: <https://github.com/airbnb/enzyme>
    [MUI]: <https://github.com/muicss/mui>
    [Webpack]: <https://github.com/webpack/webpack>
    [Eslint]: <https://eslint.org/>
