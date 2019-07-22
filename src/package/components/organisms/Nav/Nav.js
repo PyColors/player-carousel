@@ -1,24 +1,17 @@
 import React from "react";
+import HomePage from "../../../pages/HomePage";
+import LiveTV from "../../../pages/LiveTVPage";
+import CatchUp from "../../../pages/CatchUpPage";
 
-import Container from "muicss/lib/react/container";
-import Row from 'muicss/lib/react/row';
-import Col from 'muicss/lib/react/col'
+import Tabs from 'muicss/lib/react/tabs';
+import Tab from 'muicss/lib/react/tab';
 
-const Header = () => (
-    <header className='header'>
-        <Container fluid={true}>
-            <Row>
-                <Col xs="6">
-                    <img className='header__logo' src='../../../../../public/bt_logo.png' alt='BT' />
-                    <h1 className='header__title'>BT TV</h1>
-                </Col>
-                <Col xs="6 mui--text-right">
-                    <img className='header__lock' src='../../../../../public/lock.png' alt='BT' />
-                    <a href='#' className='header__link-lock'>Log in</a>
-                </Col>
-            </Row>
-        </Container>
-
-    </header>
+const Nav = () => (
+    <Tabs defaultSelectedIndex={0} className='nav'>
+        <Tab value="home" label="Home"><HomePage/></Tab>
+        <Tab value="live-tv-2" label="Live TV"> <LiveTV/> </Tab>
+        <Tab value="catch-up" label="Catch up"><CatchUp/></Tab>
+    </Tabs>
 );
-export default Header;
+
+export default Nav;

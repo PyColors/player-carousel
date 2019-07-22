@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should renders App page without exploding 1`] = `
+<main>
+  <Container
+    className=""
+    fluid={false}
+  >
+    <Header />
+    <Nav />
+    <Footer />
+  </Container>
+</main>
+`;

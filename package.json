@@ -1,5 +1,5 @@
 {
-  "name": "webpack-4-starter",
+  "name": "player-carousel",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,10 +7,27 @@
     "start": "npm run build:dev",
     "prod": "npm run build:prod",
     "build:dev": "webpack-dev-server --env dev --mode none",
-    "build:prod": "webpack --browserslist --env prod --mode production"
+    "build:prod": "webpack --browserslist --env prod --mode production",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:update": "jest -u",
+    "test:coverage": "jest --coverage"
   },
   "keywords": [],
   "author": "Py Colors",
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/",
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga|html)$": "<rootDir>./config/test/jest.filemock.js"
+    },
+    "setupFiles": [
+      "./config/test/jestsetup.js"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  },
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.5.5",
@@ -44,7 +61,23 @@
     "not dead"
   ],
   "dependencies": {
+    "axios": "^0.19.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "enzyme-to-json": "^3.3.5",
+    "jest": "^24.8.0",
+    "jest-enzyme": "^7.0.2",
+    "moxios": "^0.4.0",
+    "muicss": "^0.9.42",
+    "prop-types": "^15.7.2",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.4",
+    "redux-devtools": "^3.5.0",
+    "redux-logger": "^3.0.6",
+    "redux-mock-store": "^1.5.3",
+    "redux-thunk": "^2.3.0",
+    "store": "^2.0.12"
   }
 }

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should renders Footer page without exploding 1`] = `
+<footer
+  className="header"
+>
+  <img
+    alt="BT"
+    className="footer__logo"
+    src="test-file-stub"
+  />
+  <p
+    className="footer__title"
+  >
+    BT TV
+  </p>
+  <span
+    className="footer__copyright"
+  >
+    @copyright 2018
+  </span>
+</footer>
+`;

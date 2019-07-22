@@ -1,7 +1,8 @@
 import React from "react";
 import LiveTV from "../LiveTV";
 
-test("Render a div", () => {
+it("Should renders LiveTV page without exploding", () => {
     const wrapper = shallow(<LiveTV>Hello Jest!</LiveTV>);
     expect(wrapper).toMatchSnapshot();
+    expect(wrapper).toHaveLength(1);
 });

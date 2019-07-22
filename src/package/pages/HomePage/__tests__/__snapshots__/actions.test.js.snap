@@ -1,0 +1,455 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fetchData actions Actions HomePage Should returns data for HomePage 1`] = `
+Object {
+  "dataHomePage": Object {
+    "correlationId": "1562682280259:btv-trusted/73643287",
+    "items": Array [
+      Object {
+        "anchors": Object {
+          "default": Object {
+            "availabilityEndDate": "2025-12-31T23:59:00Z",
+            "availabilityStartDate": "2017-11-15T00:00:00Z",
+            "offerEndDate": "2025-12-31T23:59:00Z",
+            "offerStartDate": "2017-11-15T00:00:00Z",
+            "programGuid": "BBJ1481052A",
+            "seasonGuid": "movida_10018899",
+          },
+        },
+        "displayTitle": "Fear the Walking Dead",
+        "genres": Array [
+          "Drama",
+        ],
+        "guid": "movida_13059",
+        "offerTypes": Array [
+          "EST",
+          "SVOD",
+        ],
+        "packshot": "https://imagesng.cdn.vision.bt.com/ImageTransformationService?width=488&height=274&url=content_providers/images/13059_174b5cbe7bb1e240_HRP.jpg",
+        "straplineText": "AMC - Exclusive",
+        "type": "BRAND",
+      },
+      Object {
+        "anchors": Object {
+          "default": Object {
+            "availabilityEndDate": "2019-08-07T20:30:00Z",
+            "availabilityStartDate": "2019-07-08T20:30:00Z",
+            "offerEndDate": "2019-08-07T20:30:00Z",
+            "offerStartDate": "2019-07-08T20:30:00Z",
+            "programGuid": "BBJ2284798A",
+            "seasonGuid": "movida_10037080",
+          },
+        },
+        "displayTitle": "I Lived With A Killer",
+        "genres": Array [
+          "Crime",
+        ],
+        "guid": "movida_29745",
+        "offerTypes": Array [
+          "SVOD",
+        ],
+        "packshot": "https://imagesng.cdn.vision.bt.com/ImageTransformationService?width=488&height=274&url=content_providers/images/29745_04cc5abdd42f5685_HRP.jpg",
+        "straplineText": "Crime + Investigation",
+        "type": "BRAND",
+      },
+      Object {
+        "anchors": Object {
+          "default": Object {
+            "availabilityEndDate": "2019-07-17T02:00:00Z",
+            "availabilityStartDate": "2019-06-17T02:00:00Z",
+            "offerEndDate": "2019-07-17T02:00:00Z",
+            "offerStartDate": "2019-06-17T02:00:00Z",
+            "programGuid": "BBJ2139693A",
+            "seasonGuid": "movida_10059553",
+          },
+        },
+        "displayTitle": "Ransom",
+        "genres": Array [
+          "Drama",
+        ],
+        "guid": "movida_18846",
+        "offerTypes": Array [
+          "SVOD",
+        ],
+        "packshot": "https://imagesng.cdn.vision.bt.com/ImageTransformationService?width=488&height=274&url=content_providers/images/18846_ced8c2d877b69e70_HRP.jpg",
+        "straplineText": "Universal TV",
+        "type": "BRAND",
+      },
+      Object {
+        "anchors": Object {
+          "default": Object {
+            "availabilityEndDate": "2019-07-31T02:00:00Z",
+            "availabilityStartDate": "2019-07-01T02:00:00Z",
+            "offerEndDate": "2019-07-31T02:00:00Z",
+            "offerStartDate": "2019-07-01T02:00:00Z",
+            "programGuid": "BBJ2261554A",
+            "seasonGuid": "movida_10066061",
+          },
+        },
+        "displayTitle": "Private Eyes",
+        "genres": Array [
+          "Drama",
+        ],
+        "guid": "movida_15408",
+        "offerTypes": Array [
+          "SVOD",
+        ],
+        "packshot": "https://imagesng.cdn.vision.bt.com/ImageTransformationService?width=488&height=274&url=content_providers/images/15408_4afedfcacfb3dd52_HRP.jpg",
+        "straplineText": "Universal TV",
+        "type": "BRAND",
+      },
+      Object {
+        "anchors": Object {
+          "default": Object {
+            "availabilityEndDate": "2020-05-15T23:00:00Z",
+            "availabilityStartDate": "2017-07-05T23:00:00Z",
+            "offerEndDate": "2020-05-15T23:00:00Z",
+            "offerStartDate": "2017-07-05T23:00:00Z",
+            "programGuid": "BBJ1397459A",
+            "seasonGuid": "movida_10014431",
+          },
+        },
+        "displayTitle": "Outdaughtered",
+        "genres": Array [
+          "Entertainment",
+        ],
+        "guid": "movida_16555",
+        "offerTypes": Array [
+          "SVOD",
+        ],
+        "packshot": "https://imagesng.cdn.vision.bt.com/ImageTransformationService?width=488&height=274&url=content_providers/images/16555_4f34c8243e564f62_HRP.jpg",
+        "straplineText": "TLC",
+        "type": "BRAND",
+      },
+      Object {
+        "anchors": Object {
+          "default": Object {
+            "availabilityEndDate": "2019-07-24T19:00:00Z",
+            "availabilityStartDate": "2019-06-25T20:00:00Z",
+            "offerEndDate": "2019-07-24T19:00:00Z",
+            "offerStartDate": "2019-06-25T20:00:00Z",
+            "programGuid": "BBJ2265626A",
+            "seasonGuid": "movida_10066252",
+          },
+        },
+        "displayTitle": "The Hills: New Beginnings",
+        "genres": Array [
+          "Entertainment",
+        ],
+        "guid": "movida_48303",
+        "offerTypes": Array [
+          "SVOD",
+        ],
+        "packshot": "https://imagesng.cdn.vision.bt.com/ImageTransformationService?width=488&height=274&url=content_providers/images/48303_1e669b2b11f42b27_HRP.jpg",
+        "straplineText": "MTV",
+        "type": "BRAND",
+      },
+      Object {
+        "anchors": Object {
+          "default": Object {
+            "availabilityEndDate": "2019-07-17T13:15:00Z",
+            "availabilityStartDate": "2019-06-17T14:20:00Z",
+            "offerEndDate": "2019-07-17T13:15:00Z",
+            "offerStartDate": "2019-06-17T14:20:00Z",
+            "programGuid": "BBJ1503093A",
+            "seasonGuid": "movida_10020093",
+          },
+        },
+        "displayTitle": "Only Fools & Horses",
+        "genres": Array [
+          "Comedy",
+        ],
+        "guid": "movida_16177",
+        "offerTypes": Array [
+          "SVOD",
+        ],
+        "packshot": "https://imagesng.cdn.vision.bt.com/ImageTransformationService?width=488&height=274&url=content_providers/images/16177_f615bcc0103e3d6c_HRP.jpg",
+        "straplineText": "Gold",
+        "type": "BRAND",
+      },
+      Object {
+        "anchors": Object {
+          "default": Object {
+            "availabilityEndDate": "2019-07-17T23:30:00Z",
+            "availabilityStartDate": "2019-06-17T23:30:00Z",
+            "offerEndDate": "2019-07-17T23:30:00Z",
+            "offerStartDate": "2019-06-17T23:30:00Z",
+            "programGuid": "BBJ1730491A",
+            "seasonGuid": "movida_10031341",
+          },
+        },
+        "displayTitle": "Knightfall",
+        "genres": Array [
+          "Drama",
+        ],
+        "guid": "movida_25185",
+        "offerTypes": Array [
+          "SVOD",
+        ],
+        "packshot": "https://imagesng.cdn.vision.bt.com/ImageTransformationService?width=488&height=274&url=content_providers/images/25185_3b259aa76ecaa4a2_HRP.jpg",
+        "straplineText": "History",
+        "type": "BRAND",
+      },
+      Object {
+        "anchors": Object {
+          "default": Object {
+            "availabilityEndDate": "2019-07-20T22:59:59Z",
+            "availabilityStartDate": "2019-04-19T23:00:01Z",
+            "offerEndDate": "2019-07-20T22:59:00Z",
+            "offerStartDate": "2019-04-19T23:00:00Z",
+            "programGuid": "BBJ1817414A",
+            "seasonGuid": "movida_10034994",
+          },
+        },
+        "displayTitle": "The Charlotte Show",
+        "genres": Array [
+          "Entertainment",
+        ],
+        "guid": "movida_24007",
+        "offerTypes": Array [
+          "SVOD",
+        ],
+        "packshot": "https://imagesng.cdn.vision.bt.com/ImageTransformationService?width=488&height=274&url=content_providers/images/24007_e6828ed5293a023b_HRP.jpg",
+        "straplineText": "MTV",
+        "type": "BRAND",
+      },
+      Object {
+        "anchors": Object {
+          "default": Object {
+            "availabilityEndDate": "2019-07-10T20:30:00Z",
+            "availabilityStartDate": "2019-06-10T20:30:00Z",
+            "offerEndDate": "2019-07-10T20:30:00Z",
+            "offerStartDate": "2019-06-10T20:30:00Z",
+            "programGuid": "BBJ2055668A",
+            "seasonGuid": "movida_10043842",
+          },
+        },
+        "displayTitle": "Lost Gold of World War II",
+        "genres": Array [
+          "Documentary",
+        ],
+        "guid": "movida_36057",
+        "offerTypes": Array [
+          "SVOD",
+        ],
+        "packshot": "https://imagesng.cdn.vision.bt.com/ImageTransformationService?width=488&height=274&url=content_providers/images/36057_d9d95c7ea4746667_HRP.jpg",
+        "straplineText": "History",
+        "type": "BRAND",
+      },
+      Object {
+        "anchors": Object {
+          "default": Object {
+            "availabilityEndDate": "2025-12-31T23:59:00Z",
+            "availabilityStartDate": "2018-06-28T23:00:00Z",
+            "offerEndDate": "2025-12-31T23:59:00Z",
+            "offerStartDate": "2018-06-28T23:00:00Z",
+            "programGuid": "BBJ1622869A",
+            "seasonGuid": "movida_10026089",
+          },
+        },
+        "displayTitle": "Siren",
+        "genres": Array [
+          "Drama",
+        ],
+        "guid": "movida_24438",
+        "offerTypes": Array [
+          "EST",
+          "SVOD",
+        ],
+        "packshot": "https://imagesng.cdn.vision.bt.com/ImageTransformationService?width=488&height=274&url=content_providers/images/24438_40f57418d6df0c7c_HRP.jpg",
+        "straplineText": "SYFY",
+        "type": "BRAND",
+      },
+      Object {
+        "anchors": Object {
+          "default": Object {
+            "availabilityEndDate": "2019-07-25T18:00:00Z",
+            "availabilityStartDate": "2019-06-26T19:00:00Z",
+            "offerEndDate": "2019-07-25T18:00:00Z",
+            "offerStartDate": "2019-06-26T19:00:00Z",
+            "programGuid": "BBJ2265658A",
+            "seasonGuid": "movida_10066253",
+          },
+        },
+        "displayTitle": "Teen Mom OG",
+        "genres": Array [
+          "Entertainment",
+        ],
+        "guid": "movida_14265",
+        "offerTypes": Array [
+          "SVOD",
+        ],
+        "packshot": "https://imagesng.cdn.vision.bt.com/ImageTransformationService?width=488&height=274&url=content_providers/images/14265_a626a58650ab01ce_HRP.jpg",
+        "straplineText": "MTV",
+        "type": "BRAND",
+      },
+      Object {
+        "anchors": Object {
+          "default": Object {
+            "availabilityEndDate": "2019-07-11T21:00:00Z",
+            "availabilityStartDate": "2019-06-11T21:30:00Z",
+            "offerEndDate": "2019-07-11T21:00:00Z",
+            "offerStartDate": "2019-06-11T21:30:00Z",
+            "programGuid": "BBJ2262351A",
+            "seasonGuid": "movida_10066106",
+          },
+        },
+        "displayTitle": "The Ricky Gervais Show",
+        "genres": Array [
+          "Comedy",
+        ],
+        "guid": "movida_48248",
+        "offerTypes": Array [
+          "SVOD",
+        ],
+        "packshot": "https://imagesng.cdn.vision.bt.com/ImageTransformationService?width=488&height=274&url=content_providers/images/48248_6cba83cdfa30d2ef_HRP.jpg",
+        "straplineText": "Comedy Central",
+        "type": "BRAND",
+      },
+      Object {
+        "anchors": Object {
+          "default": Object {
+            "availabilityEndDate": "2019-11-09T00:00:00Z",
+            "availabilityStartDate": "2019-06-13T23:00:00Z",
+            "offerEndDate": "2019-11-09T00:00:00Z",
+            "offerStartDate": "2019-06-13T23:00:00Z",
+            "programGuid": "BBJ2252683A",
+            "seasonGuid": "movida_10065606",
+          },
+        },
+        "displayTitle": "90 Day Fiance: The Other Way",
+        "genres": Array [
+          "Entertainment",
+        ],
+        "guid": "movida_47991",
+        "offerTypes": Array [
+          "SVOD",
+        ],
+        "packshot": "https://imagesng.cdn.vision.bt.com/ImageTransformationService?width=488&height=274&url=content_providers/images/47991_13a0eb426a2b93a7_HRP.jpg",
+        "straplineText": "TLC",
+        "type": "BRAND",
+      },
+      Object {
+        "anchors": Object {
+          "default": Object {
+            "availabilityEndDate": "2019-07-31T15:00:00Z",
+            "availabilityStartDate": "2019-07-01T15:00:00Z",
+            "offerEndDate": "2019-07-31T15:00:00Z",
+            "offerStartDate": "2019-07-01T15:00:00Z",
+            "programGuid": "BBJ1663137A",
+            "seasonGuid": "movida_10027830",
+          },
+        },
+        "displayTitle": "The Outpost",
+        "genres": Array [
+          "Drama",
+        ],
+        "guid": "movida_25632",
+        "offerTypes": Array [
+          "SVOD",
+        ],
+        "packshot": "https://imagesng.cdn.vision.bt.com/ImageTransformationService?width=488&height=274&url=content_providers/images/25632_df1b153c3a117edf_HRP.jpg",
+        "straplineText": "SYFY",
+        "type": "BRAND",
+      },
+      Object {
+        "anchors": Object {
+          "default": Object {
+            "availabilityEndDate": "2019-07-26T21:00:00Z",
+            "availabilityStartDate": "2019-06-26T22:00:00Z",
+            "offerEndDate": "2019-07-26T21:00:00Z",
+            "offerStartDate": "2019-06-26T22:00:00Z",
+            "programGuid": "BBJ2280378A",
+            "seasonGuid": "movida_10066572",
+          },
+        },
+        "displayTitle": "Emily Atack: Adulting",
+        "genres": Array [
+          "Documentary",
+        ],
+        "guid": "movida_48470",
+        "offerTypes": Array [
+          "SVOD",
+        ],
+        "packshot": "https://imagesng.cdn.vision.bt.com/ImageTransformationService?width=488&height=274&url=content_providers/images/48470_5e810bdc87bcb597_HRP.jpg",
+        "straplineText": "W",
+        "type": "BRAND",
+      },
+      Object {
+        "anchors": Object {
+          "default": Object {
+            "availabilityEndDate": "2019-08-22T23:00:00Z",
+            "availabilityStartDate": "2019-06-12T23:00:00Z",
+            "offerEndDate": "2019-08-22T23:00:00Z",
+            "offerStartDate": "2019-06-12T23:00:00Z",
+            "programGuid": "BBJ2272746A",
+            "seasonGuid": "movida_10066633",
+          },
+        },
+        "displayTitle": "90 Day Fiance: Happily Ever After (Pillow Talk)",
+        "genres": Array [
+          "Entertainment",
+        ],
+        "guid": "movida_48519",
+        "offerTypes": Array [
+          "SVOD",
+        ],
+        "packshot": "https://imagesng.cdn.vision.bt.com/ImageTransformationService?width=488&height=274&url=content_providers/images/48519_d73bfda0b59d66a4_HRP.jpg",
+        "straplineText": "TLC",
+        "type": "BRAND",
+      },
+      Object {
+        "anchors": Object {
+          "default": Object {
+            "availabilityEndDate": "2019-09-03T23:00:00Z",
+            "availabilityStartDate": "2019-06-17T23:00:00Z",
+            "offerEndDate": "2019-09-03T23:00:00Z",
+            "offerStartDate": "2019-06-17T23:00:00Z",
+            "programGuid": "BBJ2252702A",
+            "seasonGuid": "movida_10065610",
+          },
+        },
+        "displayTitle": "Sweet Home Sextuplets",
+        "genres": Array [
+          "Entertainment",
+        ],
+        "guid": "movida_26670",
+        "offerTypes": Array [
+          "SVOD",
+        ],
+        "packshot": "https://imagesng.cdn.vision.bt.com/ImageTransformationService?width=488&height=274&url=content_providers/images/26670_b7edb2225cd7c4d5_HRP.jpg",
+        "straplineText": "TLC",
+        "type": "BRAND",
+      },
+      Object {
+        "anchors": Object {
+          "default": Object {
+            "availabilityEndDate": "2019-08-30T23:30:00Z",
+            "availabilityStartDate": "2019-05-31T23:30:00Z",
+            "offerEndDate": "2019-08-30T23:30:00Z",
+            "offerStartDate": "2019-05-31T23:30:00Z",
+            "programGuid": "BBJ2042867A",
+            "seasonGuid": "movida_10053837",
+          },
+        },
+        "displayTitle": "Surviving R. Kelly",
+        "genres": Array [
+          "Crime",
+        ],
+        "guid": "movida_27963",
+        "offerTypes": Array [
+          "SVOD",
+        ],
+        "packshot": "https://imagesng.cdn.vision.bt.com/ImageTransformationService?width=488&height=274&url=content_providers/images/27963_d2e26a1b148e00b8_HRP__318522.jpg",
+        "straplineText": "Crime + Investigation",
+        "type": "BRAND",
+      },
+    ],
+    "itemsReturned": 20,
+    "startIndex": 1,
+    "statusCode": 0,
+    "statusMessage": "success",
+    "totalMatchingItems": 20,
+  },
+}
+`;

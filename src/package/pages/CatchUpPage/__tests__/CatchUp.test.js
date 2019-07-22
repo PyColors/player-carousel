@@ -1,7 +1,8 @@
 import React from "react";
 import CatchUp from "../CatchUp";
 
-test("Render a div", () => {
+it("Should renders CatchUp page without exploding", () => {
     const wrapper = shallow(<CatchUp>Hello Jest!</CatchUp>);
     expect(wrapper).toMatchSnapshot();
+    expect(wrapper).toHaveLength(1)
 });

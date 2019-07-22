@@ -1,17 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
+import {Provider} from "react-redux";
+import App from './package/templates/App'
+import configureStore from "./store";
 
-import{ hello } from './hello';
-import config from './config';
+import './package/styles/style.scss';
 
-
-console.log(hello(config.name));
-
-import './styles/style.scss';
+const store = configureStore();
 
 ReactDOM.render(
-<h1>Hello, world!</h1>,
-document.getElementById('root')
+    <Provider store={store}>
+        <App/>
+    </Provider>,
+    document.getElementById("root")
 );
-
-

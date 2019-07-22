@@ -1,5 +1,7 @@
 @import 'modules/base';
+@import 'modules/font-face';
 
-body {
-  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
-}
+@import '../components/organisms/Header/Header';
+@import '../components/organisms/Nav/Nav';
+@import '../pages/HomePage/Home';
+@import '../components/organisms/Footer/Footer';

@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should renders Nav page without exploding 1`] = `
+<Tabs
+  className="nav"
+  defaultSelectedIndex={0}
+  initialSelectedIndex={null}
+  justified={false}
+  onChange={null}
+  selectedIndex={null}
+>
+  <Tab
+    label="Home"
+    onActive={null}
+    value="home"
+  >
+    <Connect(HomePage) />
+  </Tab>
+  <Tab
+    label="Live TV"
+    onActive={null}
+    value="live-tv-2"
+  >
+     
+    <LiveTV />
+     
+  </Tab>
+  <Tab
+    label="Catch up"
+    onActive={null}
+    value="catch-up"
+  >
+    <CatchUp />
+  </Tab>
+</Tabs>
+`;

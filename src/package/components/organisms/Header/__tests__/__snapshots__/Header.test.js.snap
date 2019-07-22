@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should renders Header page without exploding 1`] = `
+<header
+  className="header"
+>
+  <Container
+    className=""
+    fluid={true}
+  >
+    <Row
+      className=""
+    >
+      <Col
+        className=""
+        lg={null}
+        lg-offset={null}
+        md={null}
+        md-offset={null}
+        sm={null}
+        sm-offset={null}
+        xl={null}
+        xl-offset={null}
+        xs="6"
+        xs-offset={null}
+      >
+        <img
+          alt="BT"
+          className="header__logo"
+          src="test-file-stub"
+        />
+        <h1
+          className="header__title"
+        >
+          BT TV
+        </h1>
+      </Col>
+      <Col
+        className=""
+        lg={null}
+        lg-offset={null}
+        md={null}
+        md-offset={null}
+        sm={null}
+        sm-offset={null}
+        xl={null}
+        xl-offset={null}
+        xs="6 mui--text-right"
+        xs-offset={null}
+      >
+        <img
+          alt="BT"
+          className="header__lock"
+          src="test-file-stub"
+        />
+        <a
+          className="header__link-lock"
+          href="#"
+        >
+          Log in
+        </a>
+      </Col>
+    </Row>
+  </Container>
+</header>
+`;

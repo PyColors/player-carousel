@@ -1,8 +1,8 @@
 import React from "react";
 
 const LiveTV = () => (
-    <div>
+    <h3>
         Live TV Page
-    </div>
+    </h3>
 );
 export default LiveTV;

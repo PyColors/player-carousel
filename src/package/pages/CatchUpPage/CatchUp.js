@@ -1,8 +1,8 @@
 import React from "react";
 
 const CatchUp = () => (
-    <div>
+    <h3>
         Catch Up Page
-    </div>
+    </h3>
 );
 export default CatchUp;

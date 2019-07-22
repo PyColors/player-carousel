@@ -1,12 +1,7 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import PropTypes from "prop-types";
-import { connect } from "react-redux";
-import { fetchDataIfNeeded } from "./actions";
-import Container from "muicss/lib/react/container";
-import Row from "muicss/lib/react/row";
-import Col from "muicss/lib/react/col";
-
-// ui
+import {connect} from "react-redux";
+import {fetchDataIfNeeded} from "./actions";
 
 
 class HomePage extends Component {
@@ -15,51 +10,38 @@ class HomePage extends Component {
     }
 
     render() {
-        const { dataHomePage, isLoading, error } = this.props;
+        const {dataHomePage, isLoading, error} = this.props;
 
         return (
             <div>
-                {!isLoading ? (
-                    <p>coco</p>
+                {isLoading ? (
+                    <p>Loading</p>
                 ) : (
-                    <Container className="mui--text-subhead">
-                        <Col md="12">
+                    <section>
+                        <div>
                             {error ? (
-                                <p className="mui--text-danger">Sorry, we had a problem changing your data. Please try again later.</p>
+                                <p className="mui--text-danger">Sorry, we had a problem changing your data. Please try
+                                    again later.</p>
                             ) : null}
-                        </Col>
+                        </div>
 
-                        <Row>
-                            <Col md="12">
-
-                                <h1>{dataHomePage.name}</h1>
-
-                                <h2>
-                                    Please find bellow the latest donations for{" "}
-                                    {dataHomePage.name}
-                                </h2>
-                            </Col>
-
-                            {/*<Col md="12">*/}
-                            {/*    <Row>*/}
-                            {/*        <Col md="8">*/}
-                            {/*            <h3>Description</h3>*/}
-                            {/*            {dataHomePage.donationDisplayAmounts.map((item, index) => {*/}
-                            {/*                return (*/}
-                            {/*                    <ul key={index}>*/}
-                            {/*                        <li><em>{item.description}</em></li>*/}
-                            {/*                    </ul>*/}
-                            {/*                );*/}
-                            {/*            })}*/}
-                            {/*        </Col>*/}
-
-
-
-                            {/*    </Row>*/}
-                            {/*</Col>*/}
-                        </Row>
-
-                    </Container>
+                        <h3 className='content__title'>Your summer festival of must-see tv</h3>
+                        <div className='content'>
+                            {dataHomePage.items.map((item, index) => {
+                                return (
+                                    <article className="content__article" key={index}>
+                                        <figure>
+                                            <img src={item.packshot} alt={item.displayTitle}/>
+                                            <figcaption>
+                                                <strong className="content__article--title">{item.displayTitle}</strong>
+                                                <span className="content__article--text">{item.straplineText}</span>
+                                            </figcaption>
+                                        </figure>
+                                    </article>
+                                );
+                            })}
+                        </div>
+                    </section>
                 )}
             </div>
         );
@@ -72,7 +54,7 @@ HomePage.propTypes = {
 };
 
 function mapStateToProps(state) {
-    const { dataHomePage, isLoading, error } = state.homePageReducer;
+    const {dataHomePage, isLoading, error} = state.homePageReducer;
 
     return {
         dataHomePage,
@@ -80,5 +62,6 @@ function mapStateToProps(state) {
         isLoading
     };
 }
+
 
 export default connect(mapStateToProps)(HomePage);

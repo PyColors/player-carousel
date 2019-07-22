@@ -1,32 +1,26 @@
-.inline-middle {
-  display: inline-block;
-  vertical-align: middle;
-}
+.nav {
 
-.header {
-  margin-bottom: 20px;
-
-  &__logo {
-    width: 8%;
-    @extend .inline-middle;
+  .mui-tabs__bar {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #5D5A62;
   }
 
-  &__title {
-    @extend .inline-middle;
-    margin: 0 0 0 10px;
-    color: #fff;
-    font-size: 16px;
-  }
-
-  &__lock {;
-    @extend .inline-middle;
-    width: 3%;
-  }
-
-  &__link-lock {
-    @extend .inline-middle;
-    margin: 0 0 0 10px;
+  .mui-tabs__bar>li>a {
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 14px;
     color: #5D5A62;
+    cursor: pointer;
+    text-transform: inherit;
   }
 
+  .mui-tabs__bar>li.mui--is-active {
+
+    color: white;
+    border-bottom: 1px solid white;
+  }
+
+  .mui-tabs__bar>li.mui--is-active>a {
+    color: white;
+  }
 }
