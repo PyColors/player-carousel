@@ -2,22 +2,71 @@
 
 exports[`Should renders Footer page without exploding 1`] = `
 <footer
-  className="header"
+  className="footer"
 >
-  <img
-    alt="BT"
-    className="footer__logo"
-    src="test-file-stub"
-  />
-  <p
-    className="footer__title"
+  <Row
+    className=""
   >
-    BT TV
-  </p>
-  <span
-    className="footer__copyright"
-  >
-    @copyright 2018
-  </span>
+    <Col
+      className=""
+      lg={null}
+      lg-offset={null}
+      md="6"
+      md-offset={null}
+      sm={null}
+      sm-offset={null}
+      xl={null}
+      xl-offset={null}
+      xs={null}
+      xs-offset={null}
+    >
+      <img
+        alt="BT"
+        className="footer__logo"
+        src="test-file-stub"
+      />
+      <p
+        className="footer__title"
+      >
+        BT TV
+      </p>
+      <span
+        className="footer__copyright"
+      >
+        @copyright 2018
+      </span>
+    </Col>
+    <Col
+      className=""
+      lg={null}
+      lg-offset={null}
+      md="6"
+      md-offset={null}
+      mui--text-right={true}
+      sm={null}
+      sm-offset={null}
+      xl={null}
+      xl-offset={null}
+      xs={null}
+      xs-offset={null}
+    >
+      <div
+        className="mui--text-right"
+      >
+        <img
+          alt="Build Status"
+          className="footer__travis--logo"
+          src="https://travis-ci.org/PyColors/player-carousel.svg?branch=master"
+        />
+        <a
+          className="footer__travis--text"
+          href="https://github.com/PyColors/player-carousel"
+          target="_blank"
+        >
+          Project on GitHub
+        </a>
+      </div>
+    </Col>
+  </Row>
 </footer>
 `;

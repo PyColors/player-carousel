@@ -4,6 +4,7 @@
 }
 
 .footer {
+  margin-bottom: 20px;
 
   &__logo {
     width: 3%;
@@ -21,6 +22,18 @@
   &__copyright {
     @extend .inline-middle;
     margin: 0 0 0 20px;
+    font-family: "BT Light", serif;
+    font-size: 11px;
+    color: #5D5A62;
+  }
+
+  &__travis--logo {
+    @extend .inline-middle;
+  }
+
+  &__travis--text {
+    @extend .inline-middle;
+    margin: 0 0 0 10px;
     font-family: "BT Light", serif;
     font-size: 11px;
     color: #5D5A62;

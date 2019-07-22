@@ -1,4 +1,4 @@
-# Player carousel [![Build Status](https://travis-ci.org/PyColors/player-carousel.svg?branch=master)](https://travis-ci.org/PyColors/choose-your-iPhone)
+# Player carousel [![Build Status](https://travis-ci.org/PyColors/player-carousel.svg?branch=master)](https://travis-ci.org/PyColors/player-carousel)
 
 Player carousel is a screen shows multiple tv shows.
 ### [Demo online](http://www.pycolors.com/v2/BT/)

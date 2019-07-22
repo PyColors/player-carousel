@@ -24,31 +24,31 @@ module.exports = {
                 }
             },
             {
-            test: /\.(sass|scss|css)$/,
-            use: [{
-                loader: MiniCssExtractPlugin.loader
+                test: /\.(sass|scss|css)$/,
+                use: [{
+                    loader: MiniCssExtractPlugin.loader
+                },
+                    {
+                        loader: 'css-loader',
+                        options: {
+                            modules: false,
+                            sourceMap: true
+                        }
+                    },
+                    {
+                        loader: 'postcss-loader',
+                        options: {
+                            sourceMap: true
+                        }
+                    },
+                    {
+                        loader: 'sass-loader',
+                        options: {
+                            sourceMap: true
+                        }
+                    },
+                ]
             },
-                {
-                    loader: 'css-loader',
-                    options: {
-                        modules: false,
-                        sourceMap: true
-                    }
-                },
-                {
-                    loader: 'postcss-loader',
-                    options: {
-                        sourceMap: true
-                    }
-                },
-                {
-                    loader: 'sass-loader',
-                    options: {
-                        sourceMap: true
-                    }
-                },
-            ]
-        },
             {
                 test: /\.(png|jpg|gif|svg)$/,
                 use: [{
