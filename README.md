@@ -53,7 +53,7 @@ Builds JavaScript, images, and, CSS or SCSS files for production to the `dist` f
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 ```sh
-$ yarn yarn build:prod
+$ yarn build:prod
 ```
 
 
