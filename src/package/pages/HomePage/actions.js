@@ -13,7 +13,7 @@ export function fetchData() {
     return dispatch => {
         dispatch(beginFetchData());
         axios
-            .get(`http://www.pycolors.com/v2/BT/response.json`)
+            .get(`../../../data/response.json`)
             .then(res => {
                 dispatch(loadDataHomePage(res));
             })
