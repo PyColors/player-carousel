@@ -1,0 +1,32 @@
+.inline-middle {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header {
+  margin-bottom: 20px;
+
+  &__logo {
+    width: 8%;
+    @extend .inline-middle;
+  }
+
+  &__title {
+    @extend .inline-middle;
+    margin: 0 0 0 10px;
+    color: #fff;
+    font-size: 16px;
+  }
+
+  &__lock {;
+    @extend .inline-middle;
+    width: 3%;
+  }
+
+  &__link-lock {
+    @extend .inline-middle;
+    margin: 0 0 0 10px;
+    color: #5D5A62;
+  }
+
+}
